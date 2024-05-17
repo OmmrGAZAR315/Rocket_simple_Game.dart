@@ -267,7 +267,7 @@ class stack2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/Udemey');
                 },
-                style: ElevatedButton.styleFrom(primary: Colors.orange),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                 child: Text(
                   "Go Back",
                   style: TextStyle(color: Colors.black),
@@ -317,7 +317,7 @@ class _UdemeyState extends State<Udemey> {
                   ),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -332,7 +332,7 @@ class _UdemeyState extends State<Udemey> {
                       )),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -347,7 +347,7 @@ class _UdemeyState extends State<Udemey> {
                       )),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -390,7 +390,7 @@ class _UdemeyState extends State<Udemey> {
                   ),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -405,7 +405,7 @@ class _UdemeyState extends State<Udemey> {
                       )),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -420,7 +420,7 @@ class _UdemeyState extends State<Udemey> {
                       )),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.orange,
+                        backgroundColor: Colors.orange,
                         // fixedSize: Size(150, 10),
                         minimumSize: const Size(150, 50),
                       ),
@@ -439,7 +439,7 @@ class _UdemeyState extends State<Udemey> {
           ]),
           ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.orange,
+                backgroundColor: Colors.orange,
                 minimumSize: const Size(150, 50),
               ),
               onPressed: () {

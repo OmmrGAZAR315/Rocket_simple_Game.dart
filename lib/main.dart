@@ -58,7 +58,7 @@ class kar extends StatelessWidget {
               Center(
                 child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.pink,
+                        backgroundColor: Colors.pink,
                         shape: const RoundedRectangleBorder(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(40))),
